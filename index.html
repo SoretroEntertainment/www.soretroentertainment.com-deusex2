@@ -9,37 +9,12 @@
 	<style>
 	body {
 font-family: sans-serif;
-background-color: #FFFFFF;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
-b{
-  color: black;
-}
-c{
-  color: black;
-}
-d{
-  color: black;
-  font-family: monospace;
-}
-div {
-  background-color: lightgray;
-  width: 80vw;
-  border: 3px solid gray;
-  padding: 10px;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
 a {
   text-decoration: none;
-}
-.box {
-  padding: 0px;
-  inline-size: 640px;
-  overflow-wrap: break-word;
 }
  img {
    max-width: 100%;
@@ -50,15 +25,73 @@ a {
     height: 5%;
   }
 }
+.day {
+  background-color: white;
+  div {
+  background-color: lightgray;
+  width: 80vw;
+  border: 3px solid gray;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: black;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-color: black;
+  div {
+  background-color: #2C2C2C;
+  width: 80vw;
+  border: 3px solid #7F7F7F;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  a{
+  color: white;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  }
+  d{
+  color: white;
+  font-family: monospace;
+  }
+}
 </style>
 <center>
+    <script>
+    var now = new Date();
+    if (now.getHours() > 7 && now.getHours() < 21) {
+    document.body.className += " day";
+    } else {
+    document.body.className += " night";
+    }
+	</script>
 	<body>
     </center>
 	<b><div><center><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com-deusex2/49a52284a134a841aaabd04935cad8b7c4bf206c/DX2ArticleLogo.png" 
 	alt="Logo" width="642" height="256">
 	<br>Allow me to give you a little insight about this franchise. 
-Deus Ex is not just any first person arena shooter from the 90s, 
-although it was released in 2000, it is far away from a simple fun spray 'n pray shooter. 
+Deus Ex is not just a typical old school first person arena shooter, 
+although it was released decades ago, it is far away from a simple fun spray 'n pray shooter. 
 Deus Ex is considered to be a pinnacle of immersive simulators by the mass, 
 for all the good reasons that have been acknowledged, and also because Deus Ex, 
 is the reality. I'm being for real, its story is that fucking good. In real life, 
@@ -207,21 +240,19 @@ And let's say that there may be improvements, learned from mistakes of the first
 (I can't even tell which), surprisingly they've designed ragdoll physics, 
 you could toss the body anywhere you'd feel to. Does it make this game any 
 more bearable? The obvious answer is no. You were expecting for me to put 
-an additional information to this? Again, no. This shit is not worth it, 
+an additional information to this? No. This shit is not worth it, 
 this game was not worth it. Just a huge waste of fucking time. And you 
 know what else? Reviewing this game is a waste of time as well, it costed 
 me time and wasted my potentials. Let's pretend that it never came out of 
-the light, that the developers thought first instead of making moves, now 
-if you excuse me, I'm going to buy Super Nintendo along with the cartridge, 
-containing Super Metroid. Why? Because even if that is a waste of money, 
-I'd rather not bore myself to death.
+the light, that the developers thought first before they'll waste their time.
+But it happened, I guess you can't have everything.
 </p>
 <p>
 But... I'm not gonna end on this note. You see, I've come across 
 <a href="https://www.youtube.com/watch?v=TozSf50GXq8">a particular 
 video on YouTube</a>, it's... an easter egg. First off, there was no way this 
 piece of shit would have an easter egg. Second, I thought it was a fucking 
-joke or something, like some deranged asshole with a level editor (if it was a real thing) 
+prank or something, like some deranged asshole with a Deus Ex 2 level editor (if it is a real thing) 
 had just made this as an April Fools joke. It wasn't uploaded on the first of 
 the month and from what I've analysed, it's definitely fucking real. It's not 
 just an easter egg but a showcase of developers' quotes during the development. 
@@ -239,7 +270,7 @@ fewest words any sane human being would've said by now: Fuck you all.
 <p></p>
 <center>
 <small>Release date: February 12th, 2026
-<br>Last updated: April 23th, 2026
+<br>Last updated: April 30th, 2026
 <br>Author: Soretro</small>
 <br>
 <p></p>
